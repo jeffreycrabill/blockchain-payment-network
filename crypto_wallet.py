@@ -62,7 +62,7 @@ def send_transaction(w3, account, to, wage):
         "from": account.address,
         "value": value,
         "gas": gasEstimate,
-        "gasPrice": 586181642,
+        "gasPrice": 10000000000,
         "nonce": w3.eth.getTransactionCount(account.address)
     }
 
